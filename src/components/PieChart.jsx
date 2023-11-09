@@ -33,7 +33,7 @@ function PieChart() {
   const options = {};
   return (
     <div>
-      <div className="mx-auto">
+      <div className="mx-auto w-[80%]">
         <Pie data={data} options={options}></Pie>
       </div>
     </div>
