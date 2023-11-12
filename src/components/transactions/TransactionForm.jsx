@@ -42,7 +42,7 @@ function TransactionForm() {
         />
         <input
           type="number"
-          step="0.1"
+          step="0.01"
           id="inputAmount"
           placeholder="00.00"
           onChange={(e) => setAmount(e.target.value)}
